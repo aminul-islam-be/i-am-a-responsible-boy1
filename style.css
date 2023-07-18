@@ -14,9 +14,32 @@ body{
     font-size: 45px;
     font-weight: 700;
 }
+.black-color{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+.car-height{
+    height: 60px;
+    margin-top: 10px;
+    list-style: none;
+}
+.car-height img{
+    height: 100%;
+    border-radius: 15px;
+}
 .flex-nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.nav-step1{
+    margin-right: 100px;
+}
+.ul-li-flex1{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 .ul-li-flex{
@@ -24,7 +47,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-ul li{
+.ul-li-flex>li{
     list-style: none;
     padding: 0 20px;
 }
@@ -50,4 +73,20 @@ div>img{
 }
 .img-height{
     height: 100%;
+}
+@media screen and (max-width:576px) {
+    .flex-nav{
+        flex-direction: column;
+    }
+    .ul-li-flex{
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    .ul-li-flex1{
+        margin: auto;
+        padding-left: 85px;
+    }
+    .pad>li{
+        padding-bottom: 1rem;
+    }
 }
