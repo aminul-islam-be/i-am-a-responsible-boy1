@@ -11,13 +11,16 @@ body{
 }
 .primary-color{
     color: var(--primary-color);
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 700;
 }
 .black-color{
     color: black;
     font-size: 40px;
     font-weight: 600;
+}
+.h-nav{
+    height: 20px;
 }
 .car-height{
     height: 60px;
@@ -28,6 +31,7 @@ body{
     height: 100%;
     border-radius: 15px;
 }
+
 .flex-nav{
     display: flex;
     justify-content: center;
@@ -60,6 +64,7 @@ body{
 }
 a{
     text-decoration: none;
+    font-size: 20px;
 }
 li>div{
     height: 20px;
@@ -74,6 +79,98 @@ div>img{
 .img-height{
     height: 100%;
 }
+.sec-flex{
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(140, 87, 238, 0.05), rgba(241, 68, 174, 0.05);
+}
+.control-img{
+    height: 350px;
+}
+.control-img>img{
+    height: 100%;
+}
+.text-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 800;
+}
+.size{
+    font-size: 40px;
+}
+.Bolded{
+    font-size: 45px;
+    font-weight: 600;
+}
+.btn{
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-right: 16px;
+}
+.btn1{
+    background-color: #F948B2;
+}
+.btn2{
+    background-color: rgba(78, 197, 247, 1);
+}
+.area2{
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+  
+}
+.left-aling{
+    text-align: right;
+    height: 330px;
+}    
+.div-color{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 20px;
+    width: 50%;
+}
+
+.left-aling>img{
+    height: 70%;
+}
+.Color-texts{
+    font-size:24px;
+    font-weight: 600;
+    color: #534C64;
+}
+.marg-center{
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    padding: 24px;
+    font-size: 16px;
+}
+.Funny-size{
+    font-size: 26px;
+}
+.step4{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+.step4-a{
+    height: 160px;
+    margin-top: 16px;
+}
+.step4-a>img{
+    height: 100%;
+}
+
 @media screen and (max-width:576px) {
     .flex-nav{
         flex-direction: column;
@@ -82,11 +179,91 @@ div>img{
         flex-direction: column;
         margin-top: 16px;
     }
+    .h-nav{
+        height: auto;
+    }
     .ul-li-flex1{
         margin: auto;
         padding-left: 85px;
     }
     .pad>li{
-        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+    .sec-flex{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .area2{
+        flex-direction: column;
+        background-image: rgb(246, 245, 248); 
+    
+    }
+    .left-aling{
+        text-align: center;
+    }
+    .top{
+        margin-top: 80px;
+    }
+    .div-color{
+        width: auto;
+        position: relative;
+        bottom: 120px;
+    }
+    .marg-center{
+        position: relative;
+        bottom: 120px;
+    }
+    .step4{
+        flex-direction: column;
+    }
+    .step4-a{
+        position: relative;
+        top: 100px;
+    }
+    .step4-a>img{
+        height: 100%;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .ul-li-flex>li{
+        padding: 0 10px;
+    }
+    .h-nav{
+        padding: 25px;
+    }
+    .sec-flex{
+        flex-direction: column-reverse;
+        
+        align-items: center;
+        margin-top:200px;
+    }
+    .area2{
+        flex-direction: column;
+        background-image: rgb(246, 245, 248); 
+    
+    }
+    .left-aling{
+        text-align: center;
+    }
+    .top{
+        margin-top: 80px;
+    }
+    .div-color{
+        width: auto;
+        position: relative;
+        bottom: 120px;
+    }
+    .marg-center{
+        position: relative;
+        bottom: 220px;
+    }
+    .Funny-size{
+        font-size: 36px;
+    }
+    .step4-a{
+        position: relative;
+        bottom: 300px;
     }
 }
