@@ -170,6 +170,84 @@ div>img{
 .step4-a>img{
     height: 100%;
 }
+.p-siz{
+    width: 140px;
+    font-size: 8px;
+}
+.gamer-site{
+    height: 220px;
+    width: 260px;
+    z-index: 5;
+}
+.sutto-pic{
+    
+    z-index: 10;
+    position: relative;
+    bottom: 80px;
+    left:150px ;
+}
+.step5{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.gamer-site>img{
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+.sutto-pic>img{
+    width: 40%;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px gray;
+}
+.step6{
+    display: grid;
+    grid-template-columns: repeat(5, 140px);
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.step-bottom-margin{
+    margin-bottom: 40px;
+}
+.step6 img{
+    width: 20%;
+}
+.step6-div-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.gap-dilam{
+    margin-left: 12px;
+}
+.modify{
+    width: max-content;
+    margin: auto;
+    position: relative;
+    left: 8%;
+}
+.krp:hover{
+    border: 4px solid;
+    border-image: linear-gradient(180deg, purple, violet, red);
+    border-image-slice: 1;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 14px;
+    width: 120px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 
 @media screen and (max-width:576px) {
     .flex-nav{
@@ -223,21 +301,81 @@ div>img{
     .step4-a>img{
         height: 100%;
     }
+   .step5{
+    width: 120px;
+    margin: 20px;
+    flex-direction: column-reverse;
+    position: relative;
+    top:400px;
+    left: 100px;
+   }
+   .sutto-pic>img{
+    width: 30%;
+   }
+   .sutto-pic{
+    left: 100px;
+    bottom: 60px;
+   }
+   .gamer-site>img{
+    width: 60%;
+    margin: 0 auto;
+}
+.gamer-site{
+    width: 280px;
+    text-align: center;
+}
+.size{
+    font-size: 20px;
+}
+.step6{
+    width: 320px;
+    grid-template-columns: repeat(3, 100px);
+position: relative;
+top: 400px;
+}
+.step-bottom-margin{
+    visibility: hidden;
+
+}
+.cen{
+    position: relative;
+    
+}
 }
 
 
-@media screen and (min-width:576px) and (max-width:992px) {
-    .ul-li-flex>li{
-        padding: 0 10px;
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .flex-nav{
+        flex-direction: column;
+    }
+    .ul-li-flex{
+        flex-direction: column;
+        margin-top: 16px;
     }
     .h-nav{
-        padding: 25px;
+        height: auto;
+    }
+    .ul-li-flex1{
+        margin: auto;
+        padding-left: 85px;
+    }
+    .pad>li{
+        margin-bottom: 1rem;
     }
     .sec-flex{
         flex-direction: column-reverse;
-        
-        align-items: center;
-        margin-top:200px;
+        justify-content: center;
     }
     .area2{
         flex-direction: column;
@@ -257,13 +395,19 @@ div>img{
     }
     .marg-center{
         position: relative;
-        bottom: 220px;
+        bottom: 120px;
     }
-    .Funny-size{
-        font-size: 36px;
+    .step4{
+        flex-direction: column;
     }
     .step4-a{
         position: relative;
-        bottom: 300px;
+        top: 100px;
     }
+    .step4-a>img{
+        height: 100%;
+    }
+   .step5{
+    flex-direction: column-reverse;
+   }
 }
