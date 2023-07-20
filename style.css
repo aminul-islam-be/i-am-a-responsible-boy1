@@ -284,6 +284,13 @@ div>img{
 .step7-f{
     background-color: black;
 }
+.krn1{
+    display: none;
+}
+
+
+
+
 @media screen and (max-width:576px) {
     .flex-nav{
         flex-direction: column;
@@ -389,6 +396,22 @@ top: 400px;
 .step7-f{
     background-color: white;
 }
+.krp{
+    visibility: hidden;
+}
+.left-mar{
+    margin-left: 10px ;
+}
+.krn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+.krn1 img{
+    width: 30px;
+}
 }
 
 
@@ -456,6 +479,73 @@ top: 400px;
         height: 100%;
     }
    .step5{
+    width: 120px;
+    margin: 20px;
     flex-direction: column-reverse;
+    position: relative;
+    top:400px;
+    left: 100px;
    }
+   .sutto-pic>img{
+    width: 30%;
+   }
+   .sutto-pic{
+    left: 100px;
+    bottom: 60px;
+   }
+   .gamer-site>img{
+    width: 60%;
+    margin: 0 auto;
 }
+.gamer-site{
+    width: 280px;
+    text-align: center;
+}
+.size{
+    font-size: 20px;
+}
+.step6{
+    width: 320px;
+    grid-template-columns: repeat(3, 100px);
+position: relative;
+top: 400px;
+
+}
+.icon-marginC{
+
+}
+.step-bottom-margin{
+    visibility: hidden;
+
+}
+.cen{
+    position: relative;
+    
+}
+
+.mobile{
+    background-color: black;
+    position: relative;
+    top: 300px;
+}
+.step7-f{
+    background-color: white;
+}
+.krp{
+    visibility: hidden;
+}
+.left-mar{
+    margin-left: 10px ;
+}
+.krn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+.krn1 img{
+    width: 30px;
+}
+}
+
