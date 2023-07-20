@@ -281,6 +281,9 @@ div>img{
     width: max-content;
     margin: auto;
 }
+.step7-f{
+    background-color: black;
+}
 @media screen and (max-width:576px) {
     .flex-nav{
         flex-direction: column;
@@ -364,6 +367,10 @@ div>img{
     grid-template-columns: repeat(3, 100px);
 position: relative;
 top: 400px;
+
+}
+.icon-marginC{
+
 }
 .step-bottom-margin{
     visibility: hidden;
@@ -372,6 +379,15 @@ top: 400px;
 .cen{
     position: relative;
     
+}
+
+.mobile{
+    background-color: black;
+    position: relative;
+    top: 300px;
+}
+.step7-f{
+    background-color: white;
 }
 }
 
