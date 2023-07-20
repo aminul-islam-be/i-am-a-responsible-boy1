@@ -248,7 +248,39 @@ div>img{
     -webkit-text-fill-color: transparent;
 
 }
+.list-styl li{
+    list-style: none;
+    margin-left: 26px;
+    font-size: 10px;
+    color: white;
+}
+.list-styl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.icn{
+    width: max-content;
+    margin: auto;
+}
+.fot-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.fot-flex li{
+    list-style: none;
+    color: white;
+    margin-left: 26px;
+    margin-bottom: 120px;
+    font-size: 10px;
+}
+.foter-reserve{
+    width: max-content;
+    margin: auto;
+}
 @media screen and (max-width:576px) {
     .flex-nav{
         flex-direction: column;
